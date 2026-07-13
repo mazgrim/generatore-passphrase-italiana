@@ -17,13 +17,9 @@ Generatore di **passphrase in italiano** (metodo [Diceware](https://en.wikipedia
 
 ## Utilizzo
 
-Non serve installare nulla. Apri semplicemente il file nel browser:
+**Demo online**: <https://mazgrim.github.io/generatore-passphrase-italiana/>
 
-```
-passphrase-italiana.html
-```
-
-Oppure, per una demo online, puoi pubblicare il file con **GitHub Pages** (Settings → Pages → branch `main`).
+Oppure non serve installare nulla: apri semplicemente il file `index.html` nel browser.
 
 ## Come funziona la sicurezza
 
@@ -35,7 +31,7 @@ La selezione degli indici casuali usa `crypto.getRandomValues()` con scarto dei 
 
 ```
 .
-├── passphrase-italiana.html   # L'applicazione completa (HTML + CSS + JS)
+├── index.html                 # L'applicazione completa (HTML + CSS + JS)
 ├── docs/
 │   └── screenshot.png         # Screenshot per il README
 ├── LICENSE                    # GNU GPL v3
